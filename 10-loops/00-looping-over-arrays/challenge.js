@@ -12,8 +12,9 @@ module.exports.sumNumbers = function (numArray){
 }
 
 module.exports.splitAndLowerCaseString = function (inputString){
-  var newString = inputString.toLowerCase().split(" ");
-  return newString;
+  var newString = inputString.toLowerCase();
+  var newArray = newString.split(",");
+  return newArray;
 };  
 
 module.exports.addIndex = function (inArray){
